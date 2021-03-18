@@ -1,0 +1,42 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+/* Password Generator */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+    width: 50vw;
+}
+
+p {
+    padding: 20px 0;
+}
+
+#password {
+    padding: 10px 50px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    border-bottom: 3px solid #90ee90;
+}
+
+.btn {
+    margin: 20px 0;
+    padding: 10px;
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 15px;
+    cursor: pointer;
+}
